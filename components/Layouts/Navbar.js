@@ -458,9 +458,9 @@ const Navbar = () => {
               </ul>
 
               <div className="others-options">
-                <Link href="/login/" className="default-btn">
+                {/* <Link href="/login/" className="default-btn">
                   Log In <i className="bx bx-log-in-circle"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

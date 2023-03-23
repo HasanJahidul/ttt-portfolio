@@ -7,7 +7,7 @@ const ServicesStyleTwo = () => {
       <section className="offer-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Our Professionals Services For You</h2>
+            <h2>Together, we strive to accomplish your objectives.</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
               architecto quaerat eaque sapiente accusantium ad ut explicabo
