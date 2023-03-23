@@ -24,17 +24,14 @@ const Faq = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What Are The Business Advisory Company?
+                        Where is your software development company located?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Our software development company is located in the Asia
+                        region, but we offer our services globally.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -42,17 +39,16 @@ const Faq = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Research Is What Makes An Effective Business Plan?
+                        What kind of services do you provide?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        We provide web application development, mobile
+                        application development for both Android and iOS, SAAS
+                        product development, ERP development, software testing
+                        as a service, and e-commerce solutions.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -60,16 +56,15 @@ const Faq = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How Achieving Small Business Success?
+                        What is your development process like?{" "}
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Our development process is based on Agile methodology,
+                        which allows us to be flexible and responsive to
+                        changing client needs. We prioritize customer
+                        satisfaction and timely delivery.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -77,16 +72,16 @@ const Faq = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Why Business Planing Is Important?
+                        What is your team structure like?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Our team consists of experienced developers, project
+                        managers, quality assurance professionals, and
+                        designers. We also have specialists in various
+                        technologies, allowing us to provide comprehensive
+                        solutions.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -94,16 +89,30 @@ const Faq = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How Do You Startup?
+                        How do you ensure the quality of your deliverables?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        We follow a rigorous testing process that includes unit
+                        testing, integration testing, and acceptance testing. We
+                        also use automated testing tools to ensure consistent
+                        quality.
+                      </p>
+                    </AccordionItemPanel>
+                  </AccordionItem>
+                  <AccordionItem uuid="e">
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+                        How do you ensure the quality of your deliverables?
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <p>
+                        We follow a rigorous testing process that includes unit
+                        testing, integration testing, and acceptance testing. We
+                        also use automated testing tools to ensure consistent
+                        quality.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

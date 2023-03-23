@@ -14,10 +14,10 @@ export default function About1() {
       <Navbar />
 
       <PageBanner
-        pageTitle="About Style One"
+        pageTitle="About Us"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="About Style One"
+        activePageText="About Us"
       />
 
       <About />

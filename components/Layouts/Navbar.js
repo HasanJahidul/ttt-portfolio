@@ -128,15 +128,16 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/about-1/"
+                    href="/about/"
                     className={`nav-link ${
-                      currentPath == "/about-1/" && "active"
+                      currentPath == "/about/" && "active"
                     }`}
                   >
-                    About <i className="bx bx-chevron-down"></i>
+                    About
+                    {/* <i className="bx bx-chevron-down"></i> */}
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/about-1/"
@@ -158,7 +159,7 @@ const Navbar = () => {
                         About Style Two
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item">
