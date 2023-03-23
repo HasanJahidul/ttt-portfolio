@@ -27,9 +27,9 @@ export default function Index4() {
 
         <About />
 
-        <Services />
-
         <WhyChooseUs />
+
+        <Services />
 
         <MakeYourBusiness />
 

@@ -8,7 +8,7 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div 
+              <div
                 className="about-img"
                 data-aos="fade-in"
                 data-aos-duration="1200"
@@ -19,7 +19,7 @@ const About = () => {
             </div>
 
             <div className="col-lg-6">
-              <div 
+              <div
                 className="about-content"
                 data-aos="fade-in"
                 data-aos-duration="1200"

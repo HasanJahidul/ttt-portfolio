@@ -5,7 +5,7 @@ import FsLightbox from "fslightbox-react";
 const MainBanner = () => {
   // if toggler is updated when lightbox is closed it will open it
   const [toggler, setToggler] = useState(false);
-  
+
   return (
     <>
       <FsLightbox
@@ -23,7 +23,8 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="300"
                 >
-                  Turn Your Documents Into Data With AI
+                  Allow our elegance and professionalism to bring your ideas to
+                  life.
                 </h1>
 
                 <p
@@ -31,12 +32,15 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="500"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida risus commodo
+                  TakeTheTech is a software development company that focuses on
+                  using cutting-edge technological solutions to bring concepts
+                  to life. We collaborate closely with our clients to transform
+                  their ideas into reality, producing creative software
+                  solutions that match their specific requirements and surpass
+                  their expectations.
                 </p>
 
-                <div 
+                <div
                   className="banner-btn"
                   data-aos="fade-in"
                   data-aos-duration="1200"

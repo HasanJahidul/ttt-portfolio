@@ -5,26 +5,21 @@ const WhyChooseUs = () => {
     <>
       <section className="choose-ue-area pt-100">
         <div className="container">
-          <div className="row">
-            <div className="col-8">
-              <div className="choose-title home-four-section-title">
-                <span>Why Choose Us</span>
-                <h2>
-                  Our Platform Takes Away The Hard Process Of Creating Your
-                  Website
-                </h2>
-              </div>
-            </div>
+          <div className="section-title">
+            <span>Why Choose Us</span>
+            <h2>
+              Our Platform Takes Away The Hard Process Of Creating Your Website
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi
+              rem quo itaque minus dolorem ratione vero, quisquam reiciendis
+              quia atque eos aspernatur.
+            </p>
           </div>
 
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div 
-                className="choose-card rounded-3"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="200"
-              >
+              <div className="choose-card">
                 <span>
                   01 <i className="flaticon-technical-support"></i>
                 </span>
@@ -34,13 +29,10 @@ const WhyChooseUs = () => {
                   elit, sed do eiusmod tempor.
                 </p>
               </div>
+            </div>
 
-              <div 
-                className="choose-card rounded-3"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="300"
-              >
+            <div className="col-lg-6">
+              <div className="choose-card">
                 <span>
                   02 <i className="flaticon-shield"></i>
                 </span>
@@ -50,13 +42,10 @@ const WhyChooseUs = () => {
                   elit, sed do eiusmod tempor.
                 </p>
               </div>
+            </div>
 
-              <div 
-                className="choose-card rounded-3"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="400"
-              >
+            <div className="col-lg-6">
+              <div className="choose-card">
                 <span>
                   03 <i className="flaticon-support"></i>
                 </span>
@@ -69,13 +58,41 @@ const WhyChooseUs = () => {
             </div>
 
             <div className="col-lg-6">
-              <div 
-                className="choose-img"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="800"
-              >
-                <img src="/images/choose-img.png" alt="Image" />
+              <div className="choose-card">
+                <span>
+                  04 <i className="flaticon-technical-support"></i>
+                </span>
+                <h3>Free Try </h3>
+                <p>
+                  Lorem ipsum dolor sit labore amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="choose-card">
+                <span>
+                  05 <i className="flaticon-shield"></i>
+                </span>
+                <h3>Advanced Tchnology</h3>
+                <p>
+                  Lorem ipsum dolor sit labore amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="choose-card">
+                <span>
+                  06 <i className="flaticon-support"></i>
+                </span>
+                <h3>Competitive Pricing</h3>
+                <p>
+                  Lorem ipsum dolor sit labore amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor.
+                </p>
               </div>
             </div>
           </div>
