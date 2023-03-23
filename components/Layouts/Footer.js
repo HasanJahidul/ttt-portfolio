@@ -28,23 +28,32 @@ const Footer = () => {
 
                 <ul className="social-icon">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a
+                      href="https://www.facebook.com/takethetechbd"
+                      target="_blank"
+                    >
                       <i className="bx bxl-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
+                    <a
+                      href="https://twitter.com/TakeTheTechLtd"
+                      target="_blank"
+                    >
                       <i className="bx bxl-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/company/takethetech/"
+                      target="_blank"
+                    >
                       <i className="bx bxl-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.pinterest.com/" target="_blank">
-                      <i className="bx bxl-pinterest-alt"></i>
+                    <a href="https://wa.me/+8801631137535" target="_blank">
+                      <i className="bx bxl-whatsapp"></i>
                     </a>
                   </li>
                 </ul>
@@ -163,19 +172,21 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-call"></i>
                     <span>Phone</span>
-                    +882-569-756
+                    <a href="tel:+8801631137535">(+880) 1631-137535</a>
                   </li>
 
                   <li className="address">
                     <i className="flaticon-envelope"></i>
                     <span>Email</span>
-                    hello@jumpx.com
+                    <a href="mailto:takethetechbd@gmail.com">
+                      takethetechbd@gmail.com
+                    </a>
                   </li>
 
                   <li className="address">
                     <i className="flaticon-maps-and-flags"></i>
                     <span>Address</span>
-                    123, Western Road, Melbourne Australia
+                    Panthapath, Green Road, Dhaka, Bangladesh
                   </li>
                 </ul>
               </div>
@@ -195,7 +206,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="copy-right">
-                <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                <p>Copyright &copy; {currentYear} TTT. All Rights Reserved</p>
               </div>
             </div>
 

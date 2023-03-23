@@ -11,18 +11,24 @@ export default function Services2() {
     <>
       <Navbar />
 
-      <PageBanner
+      {/* <PageBanner
         pageTitle="Services Style Two"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Services Style Two"
+      /> */}
+      <PageBanner
+        pageTitle="Services"
+        homePageUrl="/"
+        homePageText="Home"
+        activePageText="Services"
       />
 
       <ServicesStyleTwo />
 
       <MakeYourBusiness />
 
-      <WhatWeOffer />
+      {/* <WhatWeOffer /> */}
 
       <Footer />
     </>

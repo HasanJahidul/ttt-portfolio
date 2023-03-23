@@ -11,10 +11,14 @@ const ContactInfo = () => {
                 <i className="bx bx-envelope"></i>
                 <h3>Email Us:</h3>
                 <p>
-                  <a href="mailto:hello@jumpx.com">hello@jumpx.com</a>
+                  <a href="mailto:takethetechbd@gmail.com">
+                    takethetechbd@gmail.com
+                  </a>
                 </p>
                 <p>
-                  <a href="mailto:info@jumpx.com">info@jumpx.com</a>
+                  <a href="mailto:takethetechcareer@gmail.com">
+                    takethetechcareer@gmail.com
+                  </a>
                 </p>
               </div>
             </div>
@@ -24,10 +28,13 @@ const ContactInfo = () => {
                 <i className="bx bx-phone-call"></i>
                 <h3>Call Us:</h3>
                 <p>
-                  Tel. + <a href="tel:12318005678990">(123) 1800-567-8990</a>
+                  Tel. + <a href="tel:+8801631137535">(880) 1631-137535</a>
                 </p>
+                {/* <p>
+                  Tel. + <a href="tel:+8801749549840">(880) 1749-549840</a>
+                </p> */}
                 <p>
-                  Tel. + <a href="tel:12415235679874">(124) 1523-567-9874</a>
+                  Tel. + <a href="tel:+880 1521-581783">(880) 1521-581783</a>
                 </p>
               </div>
             </div>
@@ -35,16 +42,18 @@ const ContactInfo = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-location-plus"></i>
-                <h3>London</h3>
-                <p>123, Western Road, Melbourne Australia</p>
+                <h3>Dhaka</h3>
+                <p>Panthapath, Green Road, Dhaka, Bangladesh</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-support"></i>
-                <h3>Live Chat</h3>
-                <p>live chat all the time with our company 24/7</p>
+                <a href="https://wa.me/+8801631137535">
+                  <h3>Live Chat</h3>
+                  <p>live chat all the time with our company 24/7</p>
+                </a>
               </div>
             </div>
           </div>

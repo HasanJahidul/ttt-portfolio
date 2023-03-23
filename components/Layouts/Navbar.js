@@ -169,10 +169,11 @@ const Navbar = () => {
                       currentPath == "/services/" && "active"
                     }`}
                   >
-                    Services <i className="bx bx-chevron-down"></i>
+                    Services
+                    {/* <i className="bx bx-chevron-down"></i> */}
                   </Link>
 
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/services/"
@@ -227,7 +228,7 @@ const Navbar = () => {
                         Service Details
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
 
                 <li className="nav-item">
@@ -426,9 +427,10 @@ const Navbar = () => {
                       currentPath == "/contact/" && "active"
                     }`}
                   >
-                    Contact <i className="bx bx-chevron-down"></i>
+                    Contact
+                    {/* <i className="bx bx-chevron-down"></i> */}
                   </Link>
-
+                  {/* 
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
@@ -451,7 +453,7 @@ const Navbar = () => {
                         Contact Style Two
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
               </ul>
 
