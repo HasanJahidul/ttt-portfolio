@@ -3,13 +3,13 @@ FROM node:16-alpine3.14 as builder
 WORKDIR /app
 
 COPY package.json .
-COPY yarn.lock .
+# COPY yarn.lock .
 
 # RUN apk add git
-RUN yarn
+RUN npm install
 
 COPY . .
-RUN yarn build
+RUN npm run build
 
 FROM node:16-alpine3.14
 
