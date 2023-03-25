@@ -227,8 +227,8 @@ const Footer = () => {
               <div className="designed">
                 <p>
                   Designed By <i className="bx bx-heart"></i>{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
+                  <a href="https://takethetech.com/" target="_blank">
+                    TTT
                   </a>
                 </p>
               </div>

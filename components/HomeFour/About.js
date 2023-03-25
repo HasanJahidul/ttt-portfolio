@@ -26,14 +26,17 @@ const About = () => {
                 data-aos-delay="500"
               >
                 <span>About Us</span>
-                <h2>
-                  We Complete Every Project With Extra Care As Customer Need
-                </h2>
+                <h2>Empowering your business with technology</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                  Welcome to Take The Tech, where we're passionate about helping
+                  businesses grow through technology. Our team of experts
+                  specializes in delivering custom software solutions that
+                  empower businesses to streamline processes, boost
+                  productivity, and increase revenue. From software development
+                  to digital marketing and ERP solutions, we offer a range of
+                  services tailored to your unique needs. Our approach is
+                  simple: we listen, analyze, and create. With Take The Tech by
+                  your side, you can take your business to the next level.
                 </p>
 
                 <div className="row">

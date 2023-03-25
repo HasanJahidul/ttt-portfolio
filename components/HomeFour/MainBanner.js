@@ -23,8 +23,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="300"
                 >
-                  Allow our elegance and professionalism to bring your ideas to
-                  life.
+                  The Architects of Tomorrow: Discover Take The Tech
                 </h1>
 
                 <p
@@ -32,12 +31,12 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="500"
                 >
-                  TakeTheTech is a software development company that focuses on
-                  using cutting-edge technological solutions to bring concepts
-                  to life. We collaborate closely with our clients to transform
-                  their ideas into reality, producing creative software
-                  solutions that match their specific requirements and surpass
-                  their expectations.
+                  At Take The Tech, we're a team of tech-savvy experts who
+                  create custom software solutions for businesses. From software
+                  development to digital marketing and ERP solutions, we offer a
+                  range of services tailored to your unique needs. Our approach
+                  is simple: we listen, analyze, and create. Discover the power
+                  of tomorrow with Take The Tech.
                 </p>
 
                 <div
