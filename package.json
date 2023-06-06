@@ -1,7 +1,7 @@
 {
-    "name": "jumpx",
+    "name": "takethetech",
     "version": "2.1.0",
-    "description": "Jumpx - React Next.js AI & IT Startup Template",
+    "description": "Take The Tech - A Software Solution Company",
     "main": "index.js",
     "scripts": {
         "dev": "next",

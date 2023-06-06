@@ -42,24 +42,24 @@ const WhatWeOffer = () => {
                     onClick={(e) => openTabSection(e, "tab1")}
                   >
                     <span>
-                      <i className="flaticon-machine-learning"></i>
-                      <h3>Heavy Industry</h3>
+                      <i className="flaticon-health"></i>
+                      <h3>Healthcare Industry</h3>
                       <p>All kind of industry</p>
                     </span>
                   </li>
 
                   <li onClick={(e) => openTabSection(e, "tab2")}>
                     <span>
-                      <i className="flaticon-artificial-intelligence"></i>
-                      <h3>Transportation</h3>
+                      <i className="flaticon-call"></i>
+                      <h3>Retail</h3>
                       <p>All kind of industry</p>
                     </span>
                   </li>
 
                   <li onClick={(e) => openTabSection(e, "tab3")}>
                     <span>
-                      <i className="flaticon-health"></i>
-                      <h3>Health Care</h3>
+                      <i className="flaticon-offer"></i>
+                      <h3>Finance</h3>
                       <p>All kind of industry</p>
                     </span>
                   </li>
@@ -68,6 +68,14 @@ const WhatWeOffer = () => {
                     <span>
                       <i className="flaticon-automation"></i>
                       <h3>Manufacturing</h3>
+                      <p>All kind of industry</p>
+                    </span>
+                  </li>
+                  <li onClick={(e) => openTabSection(e, "tab5")}>
+                    <span>
+                      
+                      <i className="flaticon-success"></i>
+                      <h3>Education</h3>
                       <p>All kind of industry</p>
                     </span>
                   </li>
@@ -81,37 +89,29 @@ const WhatWeOffer = () => {
                     <div className="row align-items-center">
                       <div className="col-lg-6">
                         <div className="industries-img left-img">
-                          <img src="/images/offer1.png" alt="Image" />
+                        <img src="/images/offer3.png" alt="Image" />
                         </div>
                       </div>
 
                       <div className="col-lg-6">
                         <div className="industries-content">
-                          <h3>Heavy Industry</h3>
-                          <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Est atque recusandae esse alias reprehenderit.
+                          <h3>Healthcare Industry</h3>
+                          <p>We understand the importance of providing high-quality care, and we can help healthcare organizations implement technology solutions that improve patient outcomes, increase efficiency, and reduce costs.
                           </p>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Ea doloribus molestias illo ad aperiam quo
-                            natus voluptatum, eos laboriosam vel deserunt?
-                          </p>
-
                           <div className="row">
                             <div className="col-lg-6 col-sm-6">
                               <ul className="industries-item">
-                                <li>
-                                  <i className="flaticon-checked"></i>
-                                  Opportunities
-                                </li>
                                 <li>
                                   <i className="flaticon-checked"></i>
                                   Creating
                                 </li>
                                 <li>
                                   <i className="flaticon-checked"></i>
-                                  Industries
+                                  Consectetur
+                                </li>
+                                <li>
+                                  <i className="flaticon-checked"></i>
+                                  Adipisicing
                                 </li>
                               </ul>
                             </div>
@@ -120,25 +120,25 @@ const WhatWeOffer = () => {
                               <ul className="industries-item">
                                 <li>
                                   <i className="flaticon-checked"></i>
-                                  Security
+                                  Artificial
                                 </li>
                                 <li>
                                   <i className="flaticon-checked"></i>
-                                  Highest
+                                  Industry
                                 </li>
                                 <li>
                                   <i className="flaticon-checked"></i>
-                                  Priority
+                                  Opportunities
                                 </li>
                               </ul>
                             </div>
                           </div>
 
-                          <div className="text-center">
+                          {/* <div className="text-center">
                             <Link href="/services" className="default-btn">
                               Discover More
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -149,16 +149,9 @@ const WhatWeOffer = () => {
                     <div className="row  align-items-center">
                       <div className="col-lg-6">
                         <div className="industries-content">
-                          <h3>Transportation</h3>
+                          <h3>Retail</h3>
                           <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Est atque recusandae esse alias reprehenderit.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Ea doloribus molestias illo ad aperiam quo
-                            natus voluptatum, eos laboriosam vel deserunt? Ab
-                            rerum eaque aperiam sequi dolore minus itaque eos!
+                          Our team has experience in developing e-commerce websites, creating marketing strategies, and building custom software to help retailers grow their online presence and increase sales.
                           </p>
 
                           <div className="row">
@@ -197,11 +190,11 @@ const WhatWeOffer = () => {
                             </div>
                           </div>
 
-                          <div className="text-center">
+                          {/* <div className="text-center">
                             <Link href="/services" className="default-btn">
                               Discover More
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
 
@@ -218,22 +211,15 @@ const WhatWeOffer = () => {
                     <div className="row  align-items-center">
                       <div className="col-lg-6">
                         <div className="industries-img left-img">
-                          <img src="/images/offer3.png" alt="Image" />
+                          <img src="/images/finance.jpeg" alt="Image" />
                         </div>
                       </div>
 
                       <div className="col-lg-6">
                         <div className="industries-content">
-                          <h3>Health Care</h3>
+                          <h3>Finance</h3>
                           <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Est atque recusandae esse alias reprehenderit.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Ea doloribus molestias illo ad aperiam quo
-                            natus voluptatum, eos laboriosam vel deserunt? Ab
-                            rerum eaque aperiam sequi dolore minus itaque eos!
+                           We are equipped to help financial institutions of all sizes streamline processes, manage risk, and improve customer experiences through innovative technology solutions.
                           </p>
 
                           <div className="row">
@@ -289,14 +275,7 @@ const WhatWeOffer = () => {
                         <div className="industries-content">
                           <h3>Manufacturing</h3>
                           <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Est atque recusandae esse alias reprehenderit.
-                          </p>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Ea doloribus molestias illo ad aperiam quo
-                            natus voluptatum, eos laboriosam vel deserunt? Ab
-                            rerum eaque aperiam sequi dolore minus itaque eos!
+                          We can help manufacturers optimize their processes, increase productivity, and reduce costs through custom software development, process automation, and machine learning.
                           </p>
 
                           <div className="row">
@@ -346,6 +325,67 @@ const WhatWeOffer = () => {
                       <div className="col-lg-6">
                         <div className="industries-img right-img">
                           <img src="/images/offer4.png" alt="Image" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Tab item #5 */}
+                   <div id="tab5" className="tabs_item">
+                    <div className="row  align-items-center">
+                      <div className="col-lg-6">
+                        <div className="industries-img left-img">
+                          <img src="/images/education.avif" alt="Image" />
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6">
+                        <div className="industries-content">
+                          <h3>Education</h3>
+                          <p>
+                          Our team can help educational institutions leverage technology to improve student experiences, implement e-learning solutions, and streamline administrative processes.
+                          </p>
+
+                          <div className="row">
+                            <div className="col-lg-6 col-sm-6">
+                              <ul className="industries-item">
+                                <li>
+                                  <i className="flaticon-checked"></i>
+                                  Creating
+                                </li>
+                                <li>
+                                  <i className="flaticon-checked"></i>
+                                  Consectetur
+                                </li>
+                                <li>
+                                  <i className="flaticon-checked"></i>
+                                  Adipisicing
+                                </li>
+                              </ul>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-6">
+                              <ul className="industries-item">
+                                <li>
+                                  <i className="flaticon-checked"></i>
+                                  Artificial
+                                </li>
+                                <li>
+                                  <i className="flaticon-checked"></i>
+                                  Industry
+                                </li>
+                                <li>
+                                  <i className="flaticon-checked"></i>
+                                  Opportunities
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="text-center">
+                            <Link href="/services" className="default-btn">
+                              Discover More
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>

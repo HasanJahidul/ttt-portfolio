@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Jumpx - React Next.js AI & IT Startup Template</title>
+        <meta name="viewpoJumprt" content="width=device-width, initial-scale=1" />
+        <title>Take The Tech - A Software Solution Company</title>
       </Head>
 
       <Component {...pageProps} />
