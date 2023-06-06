@@ -31,12 +31,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="500"
                 >
-                  At Take The Tech, we're a team of tech-savvy experts who
-                  create custom software solutions for businesses. From software
-                  development to digital marketing and ERP solutions, we offer a
-                  range of services tailored to your unique needs. Our approach
-                  is simple: we listen, analyze, and create. Discover the power
-                  of tomorrow with Take The Tech.
+                  At Take The Tech, we're a team of tech-savvy experts who create custom software solutions for businesses. From software development to digital marketing and ERP solutions, we offer a range of services tailored to your unique needs. Our approach is simple: we listen, analyze, and create. Discover the power of tomorrow with Take The Tech.
                 </p>
 
                 <div
@@ -45,16 +40,17 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="700"
                 >
-                  <Link href="/about-1" className="default-btn">
+                  <Link href="/about" className="default-btn">
                     Learn More
                   </Link>
+                  {/* 
 
                   <div
                     onClick={() => setToggler(!toggler)}
                     className="default-btn active popup-youtube"
                   >
                     <i className="bx bx-play"></i> How it work?
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

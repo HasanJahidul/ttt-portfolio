@@ -34,7 +34,35 @@ const WhyChooseUs = () => {
                   elit, sed do eiusmod tempor.
                 </p>
               </div>
-
+              <div
+                className="choose-card rounded-3"
+                data-aos="fade-in"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              >
+                <span>
+                  01 <i className="flaticon-technical-support"></i>
+                </span>
+                <h3>Proven results</h3>
+                <p>
+                We've helped businesses of all sizes achieve their goals with our customized solutions. Our track record of success speaks for itself.
+                </p>
+              </div>
+              <div
+                className="choose-card rounded-3"
+                data-aos="fade-in"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              >
+                <span>
+                  01 <i className="flaticon-technical-support"></i>
+                </span>
+                <h3>Safe Security</h3>
+                <p>
+                  Lorem ipsum dolor sit labore amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor.
+                </p>
+              </div>
               <div
                 className="choose-card rounded-3"
                 data-aos="fade-in"

@@ -4,17 +4,17 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "flaticon-chip",
-    title: "Robotics & Drones",
+    title: "App Development",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Custom Mobile App Development Services for Your Business.",
     viewDetails: "/service-details",
     aosDelay: "100",
   },
   {
     iconName: "flaticon-vr",
-    title: "Virtually Reality",
+    title: "Web Development",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Transform Your Online Presence with Our Custom Web Development Solutions",
     viewDetails: "/service-details",
     aosDelay: "200",
   },
@@ -28,17 +28,17 @@ const servicesData = [
   },
   {
     iconName: "flaticon-target",
-    title: "Image Processing",
+    title: "ERP Solutions",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "ERP Solutions for Increased Efficiency and Productivity.",
     viewDetails: "/service-details",
     aosDelay: "400",
   },
   {
     iconName: "flaticon-choice",
-    title: "Order Management",
+    title: "Digital Marketing",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Digital Marketing Services That Drive Growth.",
     viewDetails: "/service-details",
     aosDelay: "500",
   },

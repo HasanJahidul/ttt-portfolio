@@ -40,7 +40,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <img src="/images/white-logo.png" alt="logo" />
+              <img src="/images/test_logo.png" alt="logo" style={{ maxWidth: '30px', maxHeight: '30px' }} />
             </Link>
 
             {/* Toggle navigation */}

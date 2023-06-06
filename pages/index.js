@@ -23,7 +23,7 @@ export default function Index4() {
 
         <MainBanner />
 
-        <PartnerSliderTwo />
+        {/* <PartnerSliderTwo /> */}
 
         <About />
 
