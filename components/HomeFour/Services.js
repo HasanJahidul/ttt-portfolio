@@ -4,49 +4,49 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "flaticon-chip",
-    title: "App Development",
+    title: "Custom Software Development",
     shortText:
-      "Custom Mobile App Development Services for Your Business.",
+      "Your business, your rules. Let's build something awesome together, tailored just for you.",
     viewDetails: "/service-details",
     aosDelay: "100",
   },
   {
-    iconName: "flaticon-vr",
-    title: "Web Development",
+    iconName: "flaticon-conversation",
+    title: "E-commerce Solutions",
     shortText:
-      "Transform Your Online Presence with Our Custom Web Development Solutions",
+      "Open 24/7 for business! Transform your online store into a powerhouse of sales and success.",
     viewDetails: "/service-details",
     aosDelay: "200",
   },
   {
     iconName: "flaticon-blockchain",
-    title: "Blockchain Project",
+    title: "API Development & Integration",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Connect, simplify, thrive. We'll make your systems talk to each other like old friends.",
     viewDetails: "/service-details",
     aosDelay: "300",
   },
   {
     iconName: "flaticon-target",
-    title: "ERP Solutions",
+    title: "Cloud Migration & Optimization",
     shortText:
-      "ERP Solutions for Increased Efficiency and Productivity.",
+      "Reach for the clouds! Let us lift your business to new heights with seamless migration and optimization",
     viewDetails: "/service-details",
     aosDelay: "400",
   },
-  {
-    iconName: "flaticon-choice",
-    title: "Digital Marketing",
+   {
+    iconName: "flaticon-target",
+    title: "Product Lifecycle Managemen",
     shortText:
-      "Digital Marketing Services That Drive Growth.",
+      "From idea to market domination, we manage every detail meticulously, allowing you to focus on making waves and achieving success.",
     viewDetails: "/service-details",
     aosDelay: "500",
   },
   {
     iconName: "flaticon-deep-learning",
-    title: "Machine Learning",
+    title: "Digital Marketing",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "From social media management to search engine optimization (SEO), we've got the tools and expertise to elevate your online presence.",
     viewDetails: "/service-details",
     aosDelay: "600",
   },
@@ -55,15 +55,13 @@ const servicesData = [
 const Services = () => {
   return (
     <>
-      <section className="offer-area offer-area-two offer-area-four pt-100 pb-70">
+      <section id="services" className="offer-area offer-area-two offer-area-four pt-100 pb-70">
         <div className="container">
           <div className="section-title home-four-section-title">
             <span>Services</span>
-            <h2>Our Professional Services For You</h2>
+            <h2>Unlock Your Potential with Our Tailored Solutions</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-              architecto quaerat eaque sapiente accusantium ad ut explicabo
-              consequuntur fuga quidem? Sint.
+              Discover how we can supercharge your business! Our expert services are designed just for you. Whether you need awesome apps, killer websites, or cutting-edge tech solutions, we've got you covered. Let's make magic together
             </p>
           </div>
 
@@ -80,7 +78,8 @@ const Services = () => {
                   <div className="service-card">
                     <i className={value.iconName}></i>
                     <h3>
-                      <Link href={value.viewDetails}>{value.title}</Link>
+                      {value.title}
+                      {/* <Link href={value.viewDetails}>{value.title}</Link> */}
                     </h3>
                     <p>{value.shortText}</p>
                   </div>

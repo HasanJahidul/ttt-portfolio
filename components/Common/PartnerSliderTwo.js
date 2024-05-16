@@ -48,9 +48,9 @@ const partnerData = [
 const PartnerSliderTwo = () => {
   return (
     <>
-      <div className="brand-area ptb-100">
+      <div id="about" className="brand-area ptb-100">
         <div className="container">
-          <Swiper
+          {/* <Swiper
             spaceBetween={25}
             navigation={true}
             autoplay={{
@@ -83,7 +83,7 @@ const PartnerSliderTwo = () => {
                   </a>
                 </SwiperSlide>
               ))}
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
     </>

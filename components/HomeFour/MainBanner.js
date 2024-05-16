@@ -31,7 +31,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="500"
                 >
-                  At Take The Tech, we're a team of tech-savvy experts who create custom software solutions for businesses. From software development to digital marketing and ERP solutions, we offer a range of services tailored to your unique needs. Our approach is simple: we listen, analyze, and create. Discover the power of tomorrow with Take The Tech.
+                  Take The Tech is your partner in innovation, offering custom software solutions designed to elevate your business. Our team of tech experts excels in software development, digital marketing, and ERP solutions, all tailored to your unique needs. We follow a simple yet effective approach: listen to your requirements, analyze your challenges, and create innovative solutions. Discover the power of tomorrow with Take The Tech and take your business to new heights.
                 </p>
 
                 <div
@@ -40,8 +40,8 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="700"
                 >
-                  <Link href="/about" className="default-btn">
-                    Learn More
+                  <Link href="/contact" className="default-btn">
+                    Contact us
                   </Link>
                   {/* 
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const teamData = [
   {
-    image: "/images/team/team1.png",
+    image: "/images/team/jhj.png",
     name: "Karen Peter",
     designation: "CEO & Founder",
     aosDelay: "100",

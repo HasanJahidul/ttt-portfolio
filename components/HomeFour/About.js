@@ -28,18 +28,10 @@ const About = () => {
                 <span>About Us</span>
                 <h2>Empowering your business with technology</h2>
                 <p>
-                  Welcome to Take The Tech, where we're passionate about helping
-                  businesses grow through technology. Our team of experts
-                  specializes in delivering custom software solutions that
-                  empower businesses to streamline processes, boost
-                  productivity, and increase revenue. From software development
-                  to digital marketing and ERP solutions, we offer a range of
-                  services tailored to your unique needs. Our approach is
-                  simple: we listen, analyze, and create. With Take The Tech by
-                  your side, you can take your business to the next level.
+                  Take The Tech is your go-to source for cutting-edge technology solutions, designed to propel your business forward. We specialize in custom software development that fits your unique business requirements, robust e-commerce platforms that enhance your online sales and customer experience, and efficient API integration to streamline your operations. Our cloud migration services ensure a smooth transition to the cloud, optimizing your infrastructure for maximum efficiency and scalability. Additionally, our comprehensive product lifecycle management takes your ideas from conception to market domination, handling every detail along the way. Coupled with our digital marketing expertise, including social media management and SEO, we elevate your online presence and drive sustainable growth. Partner with Take The Tech to turn your technological vision into reality and achieve unparalleled business success.
                 </p>
 
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-lg-6 col-sm-6">
                     <ul>
                       <li>
@@ -73,10 +65,10 @@ const About = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
 
-                <Link href="/about-1" className="default-btn">
-                  Learn More
+                <Link href="/contact" className="default-btn">
+                  Contact Us
                 </Link>
               </div>
             </div>
