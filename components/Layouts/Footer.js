@@ -16,15 +16,15 @@ const Footer = () => {
                 data-aos-delay="200"
               >
                 <Link href="/" className="logo">
-                  <img src="/images/white-logo.png" alt="Image" />
+                  <img src="/images/test_logo.png" alt="Image" />
                 </Link>
 
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quaerat molestiae corporis, magni maxime perferendis ducimus
                   totam officiis sit exercitationem sed odio debitis minus
                   cumque dolores dicta.
-                </p>
+                </p> */}
 
                 <ul className="social-icon">
                   <li>
@@ -120,25 +120,25 @@ const Footer = () => {
 
                 <ul>
                   <li>
-                    <Link href="/about-1">
+                    <Link href="#about">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services">
+                    <Link href="#services">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Services
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/pricing">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Pricing
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link href="/team">
+                    <Link href="#team">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Team
                     </Link>
@@ -149,12 +149,12 @@ const Footer = () => {
                       Support
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/testimonials">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Testimonials
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

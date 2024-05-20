@@ -2,7 +2,7 @@ import React from "react";
 
 const teamData = [
   {
-    image: "/images/team/jhj.png",
+    image: "/images/team/team1.png",
     name: "Karen Peter",
     designation: "CEO & Founder",
     aosDelay: "100",
@@ -106,7 +106,7 @@ const teamData = [
 const Team = () => {
   return (
     <>
-      <section className="team-area pb-70">
+      <section id="team" className="team-area pt-100 pb-70">
         <div className="container">
           <div className="section-title home-four-section-title">
             <span>Team</span>

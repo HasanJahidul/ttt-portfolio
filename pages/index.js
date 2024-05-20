@@ -31,11 +31,11 @@ export default function Index4() {
 
         <Services />
 
-        <MakeYourBusiness />
+        {/* <MakeYourBusiness />
 
         <WhatWeOffer />
 
-        <CaseStudies />
+        <CaseStudies /> */}
 
         <Team />
 
@@ -43,7 +43,7 @@ export default function Index4() {
 
         <Faq />
 
-        <Newsletter />
+        {/* <Newsletter /> */}
 
         <News />
 
